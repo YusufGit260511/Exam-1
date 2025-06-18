@@ -9,7 +9,7 @@ import productcart from '../assets/productcart.png'
 const Product = ({ product }) => {
     const { img, name, price, aksiya, reting } = product;
     return (
-        <div className='w-[270px] h-[350px] mb-[50px]'>
+        <div className='w-[270px] h-[350px] mb-[50px] group transition-transform duration-300 hover:scale-105 hover:shadow-2xl rounded-[4px]'>
             <div>
                 <div className='h-[209px] bg-[#e7e7e7] rounded-t-[4px] relative flex items-center justify-center'>
                     <img src={img} alt="" className='w-[190px] h-[180px]' />
